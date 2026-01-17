@@ -201,6 +201,22 @@
         }
     }
 
+    @media (pointer: coarse) {
+        .folder-item:hover {
+            background: transparent !important;
+            transform: none !important;
+        }
+
+        .folder-item:hover .folder-icon,
+        .folder-item:hover .app-icon {
+            transform: none !important;
+        }
+
+        .folder-item {
+            -webkit-tap-highlight-color: transparent;
+        }
+    }
+
     .folder-item:active {
         transform: translateY(-2px) scale(0.98);
     }
