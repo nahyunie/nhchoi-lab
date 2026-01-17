@@ -183,6 +183,28 @@ const Portfolio: React.FC = () => {
           Created by Nahyeon Choi.
         </p>
       </div>
+
+      <div
+        style={{
+          fontFamily: 'DaeguJungGuEupseong',
+          position: 'absolute',
+          opacity: 0,
+          pointerEvents: 'none'
+        }}
+      >
+        .
+      </div>
+
+      <div
+        style={{
+          fontFamily: 'Galmuri14',
+          position: 'absolute',
+          opacity: 0,
+          pointerEvents: 'none'
+        }}
+      >
+        .
+      </div>
     </div>
   );
 };
