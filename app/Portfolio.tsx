@@ -37,7 +37,7 @@ const Portfolio: React.FC = () => {
         type: 'link',
         color: '#5EC9F8',
         content: 'https://2025-nhchoi-quiz.vercel.app/',
-        image: 'https://github-production-user-asset-6210df.s3.amazonaws.com/58367854/537143588-a2b79e8a-4a12-49e0-97e9-13df47fb7e7e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260117T144913Z&X-Amz-Expires=300&X-Amz-Signature=a22b5280dbdcc34ae1199736d9a5db3bd7902a8a79263e3d443ba9779bb51e66&X-Amz-SignedHeaders=host'
+        image: '/nhchoi-quiz.png',
       },
       {
         id: 'make-an-excuse',
@@ -45,7 +45,7 @@ const Portfolio: React.FC = () => {
         type: 'link',
         color: '#5EC9F8',
         content: 'https://make-an-excuse.vercel.app/',
-        image: 'https://github-production-user-asset-6210df.s3.amazonaws.com/58367854/537143475-788b89ca-d526-4ee7-b134-a6388ee90b18.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260117T145040Z&X-Amz-Expires=300&X-Amz-Signature=cf4e886387909eecd832603f5ba89ff22c5193f8d8f2db13724eafa0b8976339&X-Amz-SignedHeaders=host'
+        image: '/make-an-excuse.png',
       },
       {
         id: 'coming',
