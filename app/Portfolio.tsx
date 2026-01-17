@@ -95,7 +95,7 @@ const Portfolio: React.FC = () => {
 
   return (
     <div className="portfolio-container">
-      <div className="finder-window">
+      <div className={`finder-window ${selectedFolder ? 'is-behind-modal' : ''}`}>
         <div className="window-controls">
           <div className="control-dot red"></div>
           <div className="control-dot yellow"></div>
